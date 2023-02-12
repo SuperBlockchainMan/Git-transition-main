@@ -1,0 +1,13 @@
+[package]
+name = "transition"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+transition-macros = { path = "../transition-macros" }
+
+[dev-dependencies]
+massa-serialization = { git = "https://github.com/massalabs/massa.git", package = "massa_serialization" }
+nom = "7.1"
